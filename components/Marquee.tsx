@@ -12,7 +12,7 @@ const items = [
 
 export default function Marquee() {
   return (
-    <div className="relative py-5 bg-gradient-to-r from-brand-deep via-brand to-brand-deep overflow-hidden mt-32 lg:mt-40">
+    <div className="relative py-6 bg-gradient-to-r from-brand-deep via-brand to-brand-deep overflow-hidden shadow-[0_30px_80px_-20px_rgba(255,106,26,0.55)]">
       <div className="flex gap-12 animate-marquee whitespace-nowrap font-display font-extrabold text-2xl md:text-3xl uppercase tracking-tight text-ink-900">
         {[...items, ...items].map((t, i) => (
           <span key={i} className="inline-flex items-center gap-12">
