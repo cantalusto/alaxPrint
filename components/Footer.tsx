@@ -4,7 +4,7 @@ import { Instagram, MessageCircle, Mail } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="relative pt-20 pb-10 px-5 md:px-10 border-t border-white/10 mt-32">
+    <footer className="relative pt-20 pb-10 px-5 md:px-10 border-t border-white/10 mt-32 bg-ink-900 text-paper">
       <div className="max-w-[1320px] mx-auto">
         <div
           aria-hidden

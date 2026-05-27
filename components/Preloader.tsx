@@ -25,7 +25,7 @@ export default function Preloader() {
         <motion.div
           initial={{ opacity: 1 }}
           exit={{ opacity: 0, transition: { duration: 0.6, ease: 'easeInOut' } }}
-          className="fixed inset-0 z-[9999] bg-ink-900 flex items-center justify-center"
+          className="fixed inset-0 z-[9999] bg-ink-900 text-paper flex items-center justify-center"
         >
           {/* Radial glow */}
           <div className="absolute inset-0 [background:radial-gradient(600px_400px_at_50%_50%,rgba(255,106,26,0.18),transparent_60%)]" />

@@ -20,7 +20,7 @@ const products = [
 
 export default function Hero() {
   return (
-    <section className="relative pt-24 lg:pt-28 pb-0">
+    <section className="relative pt-24 lg:pt-28 pb-0 text-paper">
       {/* Full hero background image */}
       <div className="absolute inset-0 z-0">
         <Image
