@@ -55,7 +55,7 @@ export default function Hero() {
               transition={{ delay: 0.95, duration: 0.6 }}
               className="mt-6 max-w-md text-paperDim text-base leading-relaxed"
             >
-              Venda, manutenção, locação e suporte técnico para impressoras digitais, routers e impressoras 3D.
+              Venda, manutenção, locação e suporte técnico para impressoras digitais de grande formato.
             </motion.p>
 
             <motion.div

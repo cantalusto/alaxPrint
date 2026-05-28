@@ -15,27 +15,11 @@ const products = [
   },
   {
     cat: 'Categoria 02',
-    title: 'Routers de\nRecorte',
-    desc: 'Precisão milimétrica e versatilidade para os mais diversos materiais.',
-    tags: ['CNC', 'MDF', 'Acrílico'],
-    img: 'https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1200&q=85',
-    span: 'lg:col-span-5',
-  },
-  {
-    cat: 'Categoria 03',
-    title: 'Impressoras\n3D',
-    desc: 'Crie, prototipe e produza sem limites com tecnologia FDM e resina.',
-    tags: ['FDM', 'Resina', 'Industrial'],
-    img: 'https://images.unsplash.com/photo-1631544114551-2068dcb7e6a8?w=1200&q=85',
-    span: 'lg:col-span-5',
-  },
-  {
-    cat: 'Categoria 04',
     title: 'Peças e\nSuprimentos',
     desc: 'Cabeçotes, motores, placas, tintas, fusores e muito mais. Estoque pronto para reduzir o seu downtime.',
     tags: ['Originais', 'Compatíveis', 'Tintas'],
     img: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1400&q=85',
-    span: 'lg:col-span-7',
+    span: 'lg:col-span-5',
   },
 ];
 

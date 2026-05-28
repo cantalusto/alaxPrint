@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: 'AlaxPrint',
     short_name: 'AlaxPrint',
     description:
-      'Venda, manutenção, locação e suporte técnico para impressoras digitais, routers e impressoras 3D.',
+      'Venda, manutenção, locação e suporte técnico para impressoras digitais de grande formato.',
     start_url: '/',
     display: 'standalone',
     background_color: '#06080F',

@@ -3,11 +3,11 @@ import { Sparkles } from 'lucide-react';
 
 const items = [
   'Impressoras Digitais',
-  'Routers de Recorte',
-  'Impressoras 3D',
+  'Grande Formato',
   'Peças e Suprimentos',
   'Manutenção Especializada',
   'Suporte Técnico 24h',
+  'Locação e Venda',
 ];
 
 export default function Marquee() {

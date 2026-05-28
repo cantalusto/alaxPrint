@@ -22,9 +22,9 @@ const mono = JetBrains_Mono({
 
 const SITE_URL = 'https://alaxprint.com.br';
 const SITE_NAME = 'AlaxPrint';
-const TITLE = 'AlaxPrint — Venda, manutenção e locação de impressoras digitais, routers e 3D';
+const TITLE = 'AlaxPrint — Venda, manutenção e locação de impressoras digitais';
 const DESCRIPTION =
-  'Soluções completas para sua gráfica evoluir. Venda, manutenção, locação, suporte técnico e peças de reposição para impressoras digitais de grande formato, routers de recorte e impressoras 3D. Atendimento especializado, peças originais e parceria de verdade.';
+  'Soluções completas para sua gráfica evoluir. Venda, manutenção, locação, suporte técnico e peças de reposição para impressoras digitais de grande formato. Atendimento especializado, peças originais e parceria de verdade.';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -42,8 +42,6 @@ export const metadata: Metadata = {
     'manutenção de impressoras',
     'locação de impressoras',
     'venda de impressoras',
-    'router de recorte',
-    'impressora 3D',
     'peças para impressoras',
     'suporte técnico impressoras',
     'gráfica',
@@ -51,6 +49,7 @@ export const metadata: Metadata = {
     'impressora UV',
     'sublimática',
     'cabeçotes de impressão',
+    'tintas para impressora',
     'AlaxPrint',
   ],
   creator: SITE_NAME,
@@ -124,7 +123,7 @@ const jsonLd = {
     '@type': 'OfferCatalog',
     name: 'Soluções AlaxPrint',
     itemListElement: [
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Venda de impressoras digitais, routers e 3D' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Venda de impressoras digitais de grande formato' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Manutenção preventiva e corretiva' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Locação de equipamentos gráficos' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Suporte técnico especializado' } },
