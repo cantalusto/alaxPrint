@@ -10,7 +10,7 @@ const products = [
     title: 'Impressoras\nDigitais',
     desc: 'Grande formato, alta produtividade e qualidade profissional para sua gráfica entregar mais em menos tempo.',
     tags: ['Eco-solvente', 'UV', 'Sublimática'],
-    img: 'https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=1400&q=85',
+    img: 'https://images.unsplash.com/photo-1693031630369-bd429a57f115?w=1400&q=85',
     span: 'lg:col-span-7',
   },
   {
